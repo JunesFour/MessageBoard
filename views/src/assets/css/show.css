@@ -1,0 +1,153 @@
+body {
+    background: url(../images/background.jpg) no-repeat center center/cover;
+    height: 850px;
+}
+
+.header {
+    padding-bottom: 150px;
+}
+
+.header > .loginForm {
+    float: right;
+}
+.header > .button {
+    margin-top: 100px;
+    margin-left: 156px;
+    float: left;
+}
+
+.header > .button button {
+    height: 40px;
+    width: 100px;
+    margin: 1px;
+    background-color: black;
+    border: 0px;
+    color: white;
+    font-size: 17px;
+}
+.header > .button a {
+    text-decoration: none;
+    color: white;
+}
+
+.header .login-button {
+    height: 23px;
+    width: 55px;
+    margin: 1px;
+    background-color: black;
+    border: 0px;
+    color: white;
+    font-size: 13px;
+}
+
+.section {
+    width: 1550px;
+    height: 700px;
+    background-color: white;
+    opacity: 0.92;
+    margin: auto;
+    padding: 20px;
+}
+.section > .content {
+    float: left;
+    margin-left: 50px;
+}
+.section > .content > .title {
+    margin-top: 30px;
+}
+.section > .content > .title > .logo {
+    height: 20px;
+    width: 20px;
+}
+.section > .content > .title > .font {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #e0620d;
+}
+
+.section > .content > .info {
+    margin-top: 30px;
+}
+
+.section > .content > .info  .first-line {
+    background-color: #e2b2b2;
+}
+
+.section > .content > .info .even-line {
+    background-color: rgb(220, 219, 223);
+}
+
+.section > .content > .info .left-font {
+    float: left;
+    padding-left: 30px;
+}
+.section > .content > .info .right-font {
+    float: right;
+    padding-right: 10px;
+}
+
+.section > .content > .info  tr {
+    line-height: 30px;
+    width: 200px;
+}
+.section > .content > .info  td {
+    width: 750px;
+}
+.section > .content > .button {
+    margin-top: 40px;
+    float: right;
+}
+
+.section > .content > .button input {
+    height: 30px;
+    width: 70px;
+    margin: 1px;
+    background-color: black;
+    border: 0px;
+    color: white;
+    font-size: 13px;
+}
+
+.section > .message-container {
+    float: right;
+    margin-top: 90px;
+    height: 480px;
+    width: 600px;
+    /* background-color: #eceef3d7; */
+    background-color:white;
+    margin-right: 30px;
+    padding: 20px;
+    /* box-shadow: 0px 0px 30px 0px #f2f2f2; */
+}
+
+.section > .message-container > .border {
+    border: 0px solid;
+    height: 600px;
+}
+
+.section > .message-container > .border > .message {
+    padding-left: 40px;
+    margin: 40px;
+}
+
+.section > .message-container > .border > .message > .logo {
+    height: 20px;
+    width: 20px;
+}
+.section > .message-container > .border > .message > .font {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #e0620d;
+}
+
+.section > .message-container > .border > .message > .info  tr {
+    line-height: 50px;
+}
+
+.section > .message-container > .border > .message > .info .key {
+    
+    font-weight: bold;
+}
+.section > .message-container > .border > .message > .info  .reply {
+    color: rgb(165, 44, 44);
+}
